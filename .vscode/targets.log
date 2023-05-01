@@ -6,8 +6,9 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # PARTICULAR PURPOSE.
 
 # This program built for i386-apple-darwin11.3.0
+ 
 
-# Make data base, printed on Wed Jun  8 09:33:06 2022
+# Make data base, printed on Thu Apr 20 13:55:53 2023
 
 # Variables
 
@@ -16,7 +17,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # automatic
 ?F = $(notdir $?)
 # environment
-VSCODE_LOG_NATIVE = false
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # automatic
@@ -28,7 +29,7 @@ CURDIR := /Users/michael/gitrepos/kubernetes-examples
 # makefile
 SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"en-us","osLocale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
 _ = /usr/bin/make
 # environment
@@ -38,35 +39,29 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-VSCODE_VERBOSE_LOGGING = true
-# environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
 INFOPATH = /opt/homebrew/share/info:
-# environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/c7/m_mq7b7d6t37zt5fg7gg4hb80000gn/T/vscode-ipc-e7333497-d576-48f2-ba20-f492a8205b08.sock
 # environment
 VSCODE_CWD = /
 # environment
 GOPROXY = https://proxy.golang.org,direct
 # environment
-PATH = /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/go/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+PATH = /Users/michael/sdk/go1.20.2/bin:/opt/homebrew/opt/openssl@3/bin:/Users/michael/.docker/bin:/Users/michael/.rd/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion Tech Preview.app/Contents/Public:/usr/local/go/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands
 # environment
 LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
 GOPATH = /Users/michael/go
 # environment
-VSCODE_LOG_STACK = false
+LaunchInstanceID = 01D5BB7C-DC8C-4C4C-B02E-B407A4E0ECBE
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.wt1SYK7zM0/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.VrlKQhFPd9/Listeners
 # automatic
 %F = $(notdir $%)
-# environment
-VSCODE_PIPE_LOGGING = true
 # environment
 PWD = /Users/michael/gitrepos/kubernetes-examples
 # environment
@@ -82,7 +77,7 @@ HOME = /Users/michael
 # default
 MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/michael/Library/Application Support/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+VSCODE_CODE_CACHE_PATH = /Users/michael/Library/Application Support/Code/CachedData/7f329fe6c66b0f86ae1574c2911b681ad5a45d63
 # environment
 LOGNAME = michael
 # environment
@@ -102,6 +97,9 @@ MAKECMDGOALS := all
 # environment
 SHLVL = 1
 # default
+ 
+make: *** No rule to make target `all'.  Stop.
+
 MAKE_VERSION := 3.81
 # environment
 USER = michael
@@ -120,7 +118,9 @@ TMPDIR = /var/folders/c7/m_mq7b7d6t37zt5fg7gg4hb80000gn/T/
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /Users/michael/Library/Application Support/Code/1.67.2-main.sock
+VSCODE_IPC_HOOK = /Users/michael/Library/Application Support/Code/1.77-main.sock
+# environment
+MallocNanoZone = 0
 # makefile
 MAKEFLAGS = Rrqp
 # environment
@@ -128,7 +128,7 @@ MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.17264903.17264909
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.50683214.50683220
 # environment
 HOMEBREW_PREFIX = /opt/homebrew
 # automatic
@@ -149,6 +149,8 @@ MAKEFILES :=
 PAGER = less
 # environment
 LC_ALL = C
+# environment
+SECURITYSESSIONID = 186b2
 # automatic
 ^F = $(notdir $^)
 # default
@@ -160,9 +162,9 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 62663
+VSCODE_PID = 595
 # variable set hash-table stats:
-# Load=75/1024=7%, Rehash=0, Collisions=2/96=2%
+# Load=74/1024=7%, Rehash=0, Collisions=2/95=2%
 
 # Pattern-specific Variable Values
 
@@ -170,9 +172,9 @@ VSCODE_PID = 62663
 
 # Directories
 
-# . (device 16777230, inode 14779675): 19 files, no impossibilities.
+# . (device 16777233, inode 14779675): 59 files, no impossibilities.
 
-# 19 files, no impossibilities in 1 directories.
+# 59 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -244,8 +246,6 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Wed Jun  8 09:33:06 2022
+# Finished Make data base on Thu Apr 20 13:55:53 2023
 
  
-make: *** No rule to make target `all'.  Stop.
-

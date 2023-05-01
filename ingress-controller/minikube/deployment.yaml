@@ -15,7 +15,6 @@ spec:
       containers:
       - name: nginxdeployment
         image: nginx:latest
-        # imagePullPolicy: Never
         ports:
         - containerPort: 80
 ---
@@ -24,6 +23,7 @@ kind: Service
 metadata:
   name: nginxservice
 spec:
+  type: ClusterIP
   selector:
     app: nginxdeployment
   ports:
